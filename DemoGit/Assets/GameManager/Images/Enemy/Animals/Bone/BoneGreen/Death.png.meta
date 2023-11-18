@@ -126,10 +126,10 @@ TextureImporter:
       name: Death_0
       rect:
         serializedVersion: 2
-        x: 51
-        y: 42
-        width: 63
-        height: 63
+        x: 0
+        y: 0
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,10 +147,10 @@ TextureImporter:
       name: Death_1
       rect:
         serializedVersion: 2
-        x: 198
-        y: 42
-        width: 67
-        height: 65
+        x: 150
+        y: 0
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,10 +168,10 @@ TextureImporter:
       name: Death_2
       rect:
         serializedVersion: 2
-        x: 346
-        y: 35
-        width: 67
-        height: 65
+        x: 300
+        y: 0
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,10 +189,10 @@ TextureImporter:
       name: Death_3
       rect:
         serializedVersion: 2
-        x: 485
-        y: 37
-        width: 85
-        height: 52
+        x: 450
+        y: 0
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,17 +219,8 @@ TextureImporter:
     nameFileIdTable:
       Death_0: 1777281618
       Death_1: 1736983547
-      Death_10: 946080721
-      Death_11: -477170004
-      Death_12: 1267279732
       Death_2: 1639700639
       Death_3: 2130157380
-      Death_4: -463883368
-      Death_5: 590653578
-      Death_6: -1753990048
-      Death_7: -398351930
-      Death_8: 298536383
-      Death_9: -256137171
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

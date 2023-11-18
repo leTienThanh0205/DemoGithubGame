@@ -126,10 +126,10 @@ TextureImporter:
       name: Idle_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 32
-        width: 51
-        height: 41
+        x: 0
+        y: 0
+        width: 90
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,10 +147,10 @@ TextureImporter:
       name: Idle_1
       rect:
         serializedVersion: 2
-        x: 108
-        y: 32
-        width: 51
-        height: 44
+        x: 90
+        y: 0
+        width: 90
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,10 +168,10 @@ TextureImporter:
       name: Idle_2
       rect:
         serializedVersion: 2
-        x: 199
-        y: 32
-        width: 50
-        height: 41
+        x: 180
+        y: 0
+        width: 90
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,10 +189,10 @@ TextureImporter:
       name: Idle_3
       rect:
         serializedVersion: 2
-        x: 288
-        y: 32
-        width: 51
-        height: 43
+        x: 270
+        y: 0
+        width: 90
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,10 +210,10 @@ TextureImporter:
       name: Idle_5
       rect:
         serializedVersion: 2
-        x: 558
-        y: 32
-        width: 49
-        height: 45
+        x: 450
+        y: 0
+        width: 90
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,10 +231,10 @@ TextureImporter:
       name: Idle_6
       rect:
         serializedVersion: 2
-        x: 648
-        y: 32
-        width: 49
-        height: 40
+        x: 540
+        y: 0
+        width: 90
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,10 +252,10 @@ TextureImporter:
       name: Idle_7
       rect:
         serializedVersion: 2
-        x: 737
-        y: 32
-        width: 48
-        height: 38
+        x: 630
+        y: 0
+        width: 90
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,13 +270,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_9
+      name: Idle_4
       rect:
         serializedVersion: 2
-        x: 468
-        y: 32
-        width: 47
-        height: 37
+        x: 360
+        y: 0
+        width: 90
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,20 +284,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ffd7bd4c040097428528f5a9ef45aa7
-      internalID: 415260587
+      spriteID: 1a4905a302da52649a195bf7c8941521
+      internalID: -823086869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_10
+      name: Idle_8
       rect:
         serializedVersion: 2
-        x: 378
-        y: 32
-        width: 56
-        height: 42
+        x: 720
+        y: 0
+        width: 90
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,8 +305,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e81e6eb50ed4d6b43a0726d9a8bec442
-      internalID: 1198485331
+      spriteID: 514aa670ef1da2941be818c9eedada02
+      internalID: -884722313
       vertices: []
       indices: 
       edges: []
@@ -324,7 +324,6 @@ TextureImporter:
     nameFileIdTable:
       Idle_0: -1594400211
       Idle_1: -1477855273
-      Idle_10: 1198485331
       Idle_2: -1110122903
       Idle_3: 1351928786
       Idle_4: -823086869
@@ -332,7 +331,6 @@ TextureImporter:
       Idle_6: -269192596
       Idle_7: -705533517
       Idle_8: -884722313
-      Idle_9: 415260587
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -126,10 +126,10 @@ TextureImporter:
       name: Attack3_0
       rect:
         serializedVersion: 2
-        x: 65
-        y: 53
-        width: 36
-        height: 31
+        x: 0
+        y: 0
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,10 +147,10 @@ TextureImporter:
       name: Attack3_1
       rect:
         serializedVersion: 2
-        x: 213
-        y: 53
-        width: 38
-        height: 29
+        x: 150
+        y: 0
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,10 +168,10 @@ TextureImporter:
       name: Attack3_2
       rect:
         serializedVersion: 2
-        x: 360
-        y: 53
-        width: 42
-        height: 31
+        x: 300
+        y: 0
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,10 +189,10 @@ TextureImporter:
       name: Attack3_3
       rect:
         serializedVersion: 2
-        x: 488
-        y: 53
-        width: 46
-        height: 42
+        x: 450
+        y: 0
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,10 +210,10 @@ TextureImporter:
       name: Attack3_4
       rect:
         serializedVersion: 2
-        x: 637
-        y: 53
-        width: 45
-        height: 42
+        x: 600
+        y: 0
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,10 +231,10 @@ TextureImporter:
       name: Attack3_5
       rect:
         serializedVersion: 2
-        x: 785
-        y: 53
-        width: 48
-        height: 42
+        x: 750
+        y: 0
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,10 +252,10 @@ TextureImporter:
       name: Attack3_6
       rect:
         serializedVersion: 2
-        x: 969
-        y: 53
-        width: 31
-        height: 33
+        x: 900
+        y: 0
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

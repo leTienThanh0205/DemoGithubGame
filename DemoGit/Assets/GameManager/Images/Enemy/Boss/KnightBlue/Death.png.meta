@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,10 +126,10 @@ TextureImporter:
       name: Death_0
       rect:
         serializedVersion: 2
-        x: 64
-        y: 6
-        width: 31
-        height: 54
+        x: 0
+        y: 0
+        width: 160
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,10 +147,10 @@ TextureImporter:
       name: Death_1
       rect:
         serializedVersion: 2
-        x: 222
-        y: 6
-        width: 28
-        height: 49
+        x: 160
+        y: 0
+        width: 160
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,10 +168,10 @@ TextureImporter:
       name: Death_2
       rect:
         serializedVersion: 2
-        x: 378
-        y: 6
-        width: 32
-        height: 40
+        x: 320
+        y: 0
+        width: 160
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,10 +189,10 @@ TextureImporter:
       name: Death_3
       rect:
         serializedVersion: 2
-        x: 535
-        y: 6
-        width: 35
-        height: 31
+        x: 480
+        y: 0
+        width: 160
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,10 +210,10 @@ TextureImporter:
       name: Death_4
       rect:
         serializedVersion: 2
-        x: 681
-        y: 6
-        width: 49
-        height: 12
+        x: 640
+        y: 0
+        width: 160
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,7 +221,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8b586750f1d27246be828147e2f93ba
+      spriteID: ba0e614a2a0cc0e44822153c1ba013e1
       internalID: 1413905445
       vertices: []
       indices: 
@@ -231,10 +231,10 @@ TextureImporter:
       name: Death_5
       rect:
         serializedVersion: 2
-        x: 841
-        y: 6
-        width: 49
-        height: 10
+        x: 800
+        y: 0
+        width: 160
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,7 +242,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a346ab0cb0f701045b27a4d8e04df151
+      spriteID: 9ec9ae26f53b49945b4ca8400dbfbd3a
       internalID: 1824829790
       vertices: []
       indices: 
