@@ -5,50 +5,63 @@ using UnityEngine.UI;
 
 public class ItemController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public Text textHP,textArrow;
-    private int numberHP = 0;
-    private int numberArrow = 0;
+    public Text textHP;
+    public Text textCoint;
+    public Text textDiamond;
+    public int numberHP = 0;
+    private int numberCoint = 0;
+    private int numberDiamond = 0;
+    public int addHealth = 20;
+    private Health healthPlayer;
+    public GameObject diamondSystem;
+    public GameObject cointSystem;
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+
+    }
     void Start()
     {
-        
+        healthPlayer = GetComponent<Health>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.K))
+        if (Input.GetKeyDown(KeyCode.H) && numberHP>0 && healthPlayer.currentHealth<100)
         {
             numberHP--;
-            Debug.Log("huy HP");
-        }else if (Input.GetKeyDown(KeyCode.M))
-        {
-            numberArrow--;
-            Debug.Log("huy HP");
-
-        }
-        if (numberHP < 0)
-        {
-            Debug.Log("Die CMNR");
+            healthPlayer.AddHealth(addHealth);
+            audioManager.PlaySFX(audioManager.addHealth);
         }
         textHP.text = numberHP.ToString();
-        textArrow.text = numberArrow.ToString();
-
+        textDiamond.text = numberDiamond.ToString();
+        textCoint.text = numberCoint.ToString();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("HP"))
+        /*if (collision.CompareTag("HP"))
         {
             numberHP++;
-            Debug.Log("Eat HP");
-            Destroy(collision.gameObject);
-        }
+            //Destroy(collision.gameObject);
+        }*/
         if (collision.CompareTag("Arrow"))
         {
-            numberArrow++;
-            Debug.Log("Eat Arrow");
             Destroy(collision.gameObject);
-
         }
+        if (collision.CompareTag("Coint"))
+        {
+            numberCoint +=50;
+            Debug.Log("text:"+numberCoint);
+            Destroy(cointSystem);
+        }
+        if (collision.CompareTag("Diamond"))
+        {
+            numberDiamond ++;
+            Debug.Log("text:" + numberDiamond);
+            Destroy(diamondSystem);
+        }
+
     }
 }

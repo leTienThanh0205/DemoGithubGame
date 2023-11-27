@@ -77,8 +77,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1664793989
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ed1374357a3d9da488f4a796c7ac6015, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -255,6 +255,9 @@ MonoBehaviour:
   runSpeed: 8
   airWalkSpeed: 3
   jumpImpulse: 10
+  dashingPower: 24
+  tr: {fileID: 0}
+  velocidadEscalar: 0
   _ismoving: 0
   _isRunning: 0
   _isFacingRight: 1
@@ -271,6 +274,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textHP: {fileID: 0}
-  textArrow: {fileID: 0}
+  textCoint: {fileID: 0}
+  textDiamond: {fileID: 0}
   numberHP: 0
-  numberArrow: 0
+  addHealth: 20
+  diamondSystem: {fileID: 0}
+  cointSystem: {fileID: 0}

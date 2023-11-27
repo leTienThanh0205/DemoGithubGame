@@ -124,7 +124,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 0.66}
+    oldSize: {x: 0.8, y: 0.44}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -174,6 +174,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   resetTime: 5
+  damage: 10
 --- !u!95 &1953787876421668401
 Animator:
   serializedVersion: 5
@@ -319,7 +320,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 0.66}
+    oldSize: {x: 0.8, y: 0.44}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -369,6 +370,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   resetTime: 5
+  damage: 10
 --- !u!95 &3607490166374017376
 Animator:
   serializedVersion: 5
@@ -514,7 +516,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 0.66}
+    oldSize: {x: 0.8, y: 0.44}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -564,6 +566,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   resetTime: 5
+  damage: 10
 --- !u!95 &6093428975555868735
 Animator:
   serializedVersion: 5
@@ -709,7 +712,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 0.66}
+    oldSize: {x: 0.8, y: 0.44}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -759,6 +762,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   resetTime: 5
+  damage: 10
 --- !u!95 &6299660849814257231
 Animator:
   serializedVersion: 5
@@ -904,7 +908,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 0.66}
+    oldSize: {x: 0.8, y: 0.44}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -954,6 +958,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   resetTime: 5
+  damage: 10
 --- !u!95 &378380702307893692
 Animator:
   serializedVersion: 5
@@ -1080,8 +1085,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -792236549
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -1024900105, guid: b8082ccd1ab96634c9a5025e768c8aeb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1272,7 +1277,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4838252304273625945}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.7751185, y: 1.2691071, z: 0.020779638}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1405,7 +1410,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 0.66}
+    oldSize: {x: 0.8, y: 0.44}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1455,6 +1460,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   resetTime: 5
+  damage: 10
 --- !u!95 &5818686821639008011
 Animator:
   serializedVersion: 5
@@ -1600,7 +1606,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 0.66}
+    oldSize: {x: 0.8, y: 0.44}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1650,6 +1656,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   resetTime: 5
+  damage: 10
 --- !u!95 &5449284086380542456
 Animator:
   serializedVersion: 5
@@ -1795,7 +1802,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 0.66}
+    oldSize: {x: 0.8, y: 0.44}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1845,6 +1852,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   resetTime: 5
+  damage: 10
 --- !u!95 &8854869985876562643
 Animator:
   serializedVersion: 5
@@ -1990,7 +1998,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 0.66}
+    oldSize: {x: 0.8, y: 0.44}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2040,6 +2048,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   resetTime: 5
+  damage: 10
 --- !u!95 &8336797213141932063
 Animator:
   serializedVersion: 5
@@ -2185,7 +2194,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 0.66}
+    oldSize: {x: 0.8, y: 0.44}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2235,6 +2244,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   resetTime: 5
+  damage: 10
 --- !u!95 &6264359055715156594
 Animator:
   serializedVersion: 5
