@@ -7,6 +7,15 @@ TagManager:
   - HP
   - Arrow
   - Ground
+  - ToPoint
+  - Trap
+  - Coint
+  - Enemy
+  - Obstacle
+  - Diamond
+  - Audio
+  - Boss
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -16,8 +25,8 @@ TagManager:
   - UI
   - Ground
   - Player
-  - 
-  - 
+  - Climp
+  - Wall
   - 
   - 
   - 
@@ -41,6 +50,33 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 597720723
+    locked: 0
+  - name: Background2
+    uniqueID: 4080352127
+    locked: 0
+  - name: Background3
+    uniqueID: 127325385
+    locked: 0
+  - name: AfterBackground
+    uniqueID: 1495543871
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: River
+    uniqueID: 1088028519
+    locked: 0
+  - name: Tree
+    uniqueID: 46994381
+    locked: 0
+  - name: Terrain
+    uniqueID: 3502730747
+    locked: 0
+  - name: Player
+    uniqueID: 1664793989
+    locked: 0
+  - name: Water
+    uniqueID: 2054110215
     locked: 0

@@ -4,7 +4,7 @@ using System;
 
 public class Firetrap : MonoBehaviour
 {
-    [SerializeField] private float damage;
+    [SerializeField] private int damage;
 
     [Header("Firetrap Timers")]
     [SerializeField] private float activationDelay;
@@ -18,7 +18,7 @@ public class Firetrap : MonoBehaviour
     private bool triggered; //when the trap gets triggered
     private bool active; //when the trap is active and can hurt the player
 
-    //private Health playerHealth;
+    private Health playerHealth;
 
     private void Awake()
     {
@@ -28,27 +28,27 @@ public class Firetrap : MonoBehaviour
 
     private void Update()
     {
-        /*if (playerHealth != null && active)
-            playerHealth.TakeDamage(damage);*/
+        if (playerHealth != null && active)
+            playerHealth.TakeDamage(damage);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
         {
-           // playerHealth = collision.GetComponent<Health>();
+            playerHealth = collision.GetComponent<Health>();
 
             if (!triggered)
                 StartCoroutine(ActivateFiretrap());
 
-            //if (active)
-                //collision.GetComponent<Health>().TakeDamage(damage);
+            if (active)
+                collision.GetComponent<Health>().TakeDamage(damage);
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        //if (collision.tag == "Player")
-           // playerHealth = null;
+        if (collision.tag == "Player")
+            playerHealth = null;
     }
     private IEnumerator ActivateFiretrap()
     {
